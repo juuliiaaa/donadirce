@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color:#fcf9ea;
+    margin: 20px 400px 20px 400px;
+    font-family: Candara;
+}
+
+/* header */
+#logo {
+    display:flex;
+    justify-content: left;
+}
+
+header h1 {
+    font-size: 5rem;
+    color:#513631;
+    font-family: 'Sofia', cursive;
+}
+
+.menu {
+    background-color: #e3b6b3;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1px 3px rgb(0, 0, 0, 0.3);
+    border-radius: 2%;
+}
+
+.menu a {
+    padding: 14px;
+    text-decoration: none;
+    color: white;
+    transition: background-color .7s;
+}
+
+.menu a:hover {
+    background-color:#dba09cb6;
+    color: white;
+}
+
+ 
+.carrosel {
+    text-align: center;
+    margin: .5%;
+}
+
+
+#cardapio {
+    padding: 2%;
+    border-radius: 2%;
+    background-color: white;
+    box-shadow: 5px 10px 15px #888;
+}
+
+#cardapio h1 {
+    font-size: 2rem;
+    color: #513631;
+    font-family: 'Sofia', cursive;
+    text-align: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-gap: 16px;
+}
+
+.produto {
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    transition: box shadow .5s;
+    transition: opacity 1;
+}
+
+.produto:hover {
+    border: 3px solid #e3b6b3;
+    box-shadow: 5px 10px 15px #888;
+    background-color: transparent;
+}
+
+
+.informacoes {
+    font-size: 24px;
+    color: #e3b6b3;
+    text-align: center;
+    font-family: 'Itim', cursive;
+}

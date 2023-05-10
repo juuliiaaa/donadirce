@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color:#fcf9ea;
+    margin: 20px 400px 20px 400px;
+    font-family: Candara;
+}
+
+/* header */
+#logo {
+    display:flex;
+    justify-content: left;
+}
+
+
+header h1 {
+    font-size: 5rem;
+    color:#513631;
+    font-family: 'Sofia', cursive;
+}
+
+.menu {
+    background-color: #e3b6b3;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1px 3px rgb(0, 0, 0, 0.3);
+    border-radius: 2%;
+}
+
+.menu a {
+    padding: 14px;
+    text-decoration: none;
+    color: white;
+    transition: background-color .7s;
+}
+
+.menu a:hover {
+    background-color:#dba09cb6;
+    color: white;
+}
+
+/* main */
+#contato {
+    margin-top: 1%;
+    background-color: white;
+    padding: 5%;
+    border-radius: 2%;
+    box-shadow: 5px 10px 15px #888;
+}  
+
+.contatos p, h3{
+    font-family: 'Itim', cursive;
+    font-size: 24px;
+    color: #513631;
+    margin-left: 1%;
+}
+
+.contatos {
+    display: flex;
+    white-space: nowrap;
+    overflow:hidden;
+    margin-bottom: .5%;
+}
